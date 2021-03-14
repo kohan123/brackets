@@ -21,7 +21,6 @@ function getLetterInformation(letter,bracketsConfig) {
   return res;
 }
 
-
 module.exports = function check(str, bracketsConfig) {
   let res = true;
   const letters = str.split("");
